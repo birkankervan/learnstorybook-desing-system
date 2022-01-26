@@ -1,7 +1,7 @@
 {
-  "name": "learnstorybook-design-system-template",
+  "name": "@birkoo/learnstorybook-desing-system-template",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cross-env BABEL_ENV=production babel src -d dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
@@ -37,7 +37,16 @@
       }
     ]
   },
-  "babel": {},
+  "babel": {
+    "presets": [
+      [
+        "react-app",
+        {
+          "absoluteRuntime": false
+        }
+      ]
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -51,13 +60,21 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.16.8",
     "@storybook/addon-actions": "^6.4.14",
     "@storybook/addon-essentials": "^6.4.14",
     "@storybook/addon-links": "^6.4.14",
     "@storybook/node-logger": "^6.4.14",
     "@storybook/preset-create-react-app": "^3.2.0",
     "@storybook/react": "^6.4.14",
+    "auto": "^10.32.6",
     "chromatic": "^6.4.1",
+    "cross-env": "^7.0.3",
     "prettier": "^2.5.1"
-  }
+  },
+  "description": "tutorial desing system",
+  "main": "dist/index.js",
+  "repository": "https://github.com/birkankervan/learnstorybook-desing-system.git",
+  "author": "Emre Birkan Kervan <kervan95@gmail.com>",
+  "license": "MIT"
 }
