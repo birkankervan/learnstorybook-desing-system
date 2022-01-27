@@ -76,5 +76,10 @@
   "main": "dist/index.js",
   "repository": "https://github.com/birkankervan/learnstorybook-desing-system.git",
   "author": "Emre Birkan Kervan <kervan95@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "auto": {
+    "plugins": [
+      "npm"
+    ]
+  }
 }
