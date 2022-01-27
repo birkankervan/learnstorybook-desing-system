@@ -76,7 +76,7 @@
     "prettier": "^2.5.1"
   },
   "description": "tutorial desing system",
-  "main": "dist/index.js",
+  "main": "index.js",
   "repository": "https://github.com/birkankervan/learnstorybook-desing-system.git",
   "author": "Emre Birkan Kervan <kervan95@gmail.com>",
   "license": "MIT",
