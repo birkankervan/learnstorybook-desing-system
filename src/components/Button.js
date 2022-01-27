@@ -48,7 +48,7 @@ const StyledButton = styled.button`
   vertical-align: top;
   white-space: nowrap;
   user-select: none;
-  opacity: 1;
+  opacity: 0.9;
   margin: 0;
   background: transparent;
 
