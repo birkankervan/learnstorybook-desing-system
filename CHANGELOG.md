@@ -1,3 +1,17 @@
+# v2.1.0 (Thu Jan 27 2022)
+
+#### 🚀 Enhancement
+
+- Make release.sh executable [#17](https://github.com/birkankervan/learnstorybook-desing-system/pull/17) ([@birkankervan](https://github.com/birkankervan))
+- Script [#16](https://github.com/birkankervan/learnstorybook-desing-system/pull/16) ([@birkankervan](https://github.com/birkankervan))
+- test4 [#15](https://github.com/birkankervan/learnstorybook-desing-system/pull/15) ([@birkankervan](https://github.com/birkankervan))
+
+#### Authors: 1
+
+- Emre Birkan Kervan ([@birkankervan](https://github.com/birkankervan))
+
+---
+
 # v2.0.0 (Thu Jan 27 2022)
 
 #### 💥 Breaking Change
