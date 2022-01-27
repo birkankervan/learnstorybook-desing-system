@@ -1,7 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { action } from "@storybook/addon-actions";
-import { Icon, Link, StoryLinkWrapper } from "../components";
+import { Link } from "../components/Link";
+import { Icon } from "../components/Icon";
+import { StoryLinkWrapper } from "../components/StoryLinkWrapper";
 
 const CustomLink = styled(Link)`
   && {
