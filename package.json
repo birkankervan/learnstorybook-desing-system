@@ -20,7 +20,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "release": "auto shipit --base-branch=main"
+    "release": "./scripts/release.sh"
 
   },
   "eslintConfig": {
