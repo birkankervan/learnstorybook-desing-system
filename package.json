@@ -20,7 +20,9 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "release": "auto shipit --base-branch=main"
+    "release": "./scripts/release.sh",
+    "build-library": "rm -rf dist && tsc --project tsconfig.library.json && yarn copypackage",
+    "copypackage": "cp -rf package.json LICENSE README.md dist"
   },
   "eslintConfig": {
     "extends": [
@@ -74,7 +76,7 @@
     "prettier": "^2.5.1"
   },
   "description": "tutorial desing system",
-  "main": "dist/index.js",
+  "main": "index.js",
   "repository": "https://github.com/birkankervan/learnstorybook-desing-system.git",
   "author": "Emre Birkan Kervan <kervan95@gmail.com>",
   "license": "MIT",
