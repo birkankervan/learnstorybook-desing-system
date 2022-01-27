@@ -1,3 +1,23 @@
+# v2.0.0 (Thu Jan 27 2022)
+
+#### 💥 Breaking Change
+
+- Script [#9](https://github.com/birkankervan/learnstorybook-desing-system/pull/9) ([@birkankervan](https://github.com/birkankervan))
+
+#### 🚀 Enhancement
+
+- test3 [#14](https://github.com/birkankervan/learnstorybook-desing-system/pull/14) ([@birkankervan](https://github.com/birkankervan))
+- test3 [#13](https://github.com/birkankervan/learnstorybook-desing-system/pull/13) ([@birkankervan](https://github.com/birkankervan))
+- test2 [#12](https://github.com/birkankervan/learnstorybook-desing-system/pull/12) ([@birkankervan](https://github.com/birkankervan))
+- test1 [#11](https://github.com/birkankervan/learnstorybook-desing-system/pull/11) ([@birkankervan](https://github.com/birkankervan))
+- test [#10](https://github.com/birkankervan/learnstorybook-desing-system/pull/10) ([@birkankervan](https://github.com/birkankervan))
+
+#### Authors: 1
+
+- Emre Birkan Kervan ([@birkankervan](https://github.com/birkankervan))
+
+---
+
 # v1.1.0 (Thu Jan 27 2022)
 
 #### 🚀 Enhancement
