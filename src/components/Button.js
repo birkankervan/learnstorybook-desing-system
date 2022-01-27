@@ -291,7 +291,7 @@ const StyledButton = styled.button`
           box-shadow: ${color.primary} 0 0 0 1px inset, ${rgba(
       color.primary,
       0.2
-    )} 0 8px 40px 0px;
+    )} 0 8px 32px 0px;
         }
       `};
 
