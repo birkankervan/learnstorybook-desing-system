@@ -84,8 +84,7 @@
     ]
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
+    "@birkoo:registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
