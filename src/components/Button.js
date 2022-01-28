@@ -53,7 +53,7 @@ const StyledButton = styled.button`
   background: transparent;
 
   border: 10px solid red;
-  font-size: 20px;
+  font-size: 24px;
 
   font-size: ${(props) =>
     props.size === SIZES.SMALL ? typography.size.s1 : typography.size.s2}px;
