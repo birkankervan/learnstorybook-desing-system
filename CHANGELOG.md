@@ -1,3 +1,15 @@
+# v2.3.0 (Fri Jan 28 2022)
+
+#### 🚀 Enhancement
+
+- add js config [#19](https://github.com/birkankervan/learnstorybook-desing-system/pull/19) ([@birkankervan](https://github.com/birkankervan))
+
+#### Authors: 1
+
+- Emre Birkan Kervan ([@birkankervan](https://github.com/birkankervan))
+
+---
+
 # v2.2.0 (Fri Jan 28 2022)
 
 #### 🚀 Enhancement
