@@ -7,13 +7,12 @@ if [ ! -z "$VERSION" ]; then
   ## Update Changelog
   auto changelog
   
-  cp package.json ./dist
-  cd ./dist
+
   ## Publish Package
   yarn config set npmRegistryServer https://registry.npmjs.org
 
   npm version $VERSION -m "Bump version to: %s [skip ci]"
-  npm publish 
+  npm publish ./dist
 
   ## Create GitHub Release
   git push --follow-tags --set-upstream origin main
