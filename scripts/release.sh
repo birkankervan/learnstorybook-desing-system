@@ -7,11 +7,12 @@ if [ ! -z "$VERSION" ]; then
   ## Update Changelog
   auto changelog
   cp package.json ./dist
+  cd ./dist
   ## Publish Package
   npm version $VERSION -m "Bump version to: %s [skip ci]"
-  npm publish ./dist
+  npm publish 
 
   ## Create GitHub Release
-  git push --follow-tags --set-upstream origin $branch
+  git push --follow-tags --set-upstream origin main
   auto release
 fi
