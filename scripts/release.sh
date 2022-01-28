@@ -10,7 +10,7 @@ if [ ! -z "$VERSION" ]; then
   cp package.json ./dist
   cd ./dist
   ## Publish Package
-  npm install --registry https://registry.npmjs.org
+  yarn config set npmRegistryServer https://registry.npmjs.org
 
   npm version $VERSION -m "Bump version to: %s [skip ci]"
   npm publish 
