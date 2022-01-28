@@ -2,6 +2,21 @@
 
 #### 🚀 Enhancement
 
+- Script [#30](https://github.com/birkankervan/learnstorybook-desing-system/pull/30) ([@birkankervan](https://github.com/birkankervan))
+- T [#29](https://github.com/birkankervan/learnstorybook-desing-system/pull/29) ([@birkankervan](https://github.com/birkankervan))
+- t [#28](https://github.com/birkankervan/learnstorybook-desing-system/pull/28) ([@birkankervan](https://github.com/birkankervan))
+- t [#27](https://github.com/birkankervan/learnstorybook-desing-system/pull/27) ([@birkankervan](https://github.com/birkankervan))
+
+#### Authors: 1
+
+- Emre Birkan Kervan ([@birkankervan](https://github.com/birkankervan))
+
+---
+
+# v2.10.0 (Fri Jan 28 2022)
+
+#### 🚀 Enhancement
+
 - T [#29](https://github.com/birkankervan/learnstorybook-desing-system/pull/29) ([@birkankervan](https://github.com/birkankervan))
 - t [#28](https://github.com/birkankervan/learnstorybook-desing-system/pull/28) ([@birkankervan](https://github.com/birkankervan))
 - t [#27](https://github.com/birkankervan/learnstorybook-desing-system/pull/27) ([@birkankervan](https://github.com/birkankervan))
