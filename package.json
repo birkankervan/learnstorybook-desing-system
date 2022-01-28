@@ -39,10 +39,6 @@
       }
     ]
   },
-  "files": [
-    "**/*.js",
-    "!**/*.stories.js"
-  ],
   "babel": {
     "presets": [
       [
@@ -80,12 +76,22 @@
   },
   "description": "tutorial desing system",
   "main": "index.js",
-  "repository": "https://github.com/birkankervan/learnstorybook-desing-system.git",
   "author": "Emre Birkan Kervan <kervan95@gmail.com>",
   "license": "MIT",
   "auto": {
     "plugins": [
       "npm"
     ]
-  }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/birkankervan/learnstorybook-desing-system"
+  },
+  "files": [
+    "dist"
+  ]
 }
