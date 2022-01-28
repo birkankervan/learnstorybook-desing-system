@@ -10,8 +10,8 @@ if [ ! -z "$VERSION" ]; then
   cp package.json ./dist
   cd ./dist
   ## Publish Package
-  npm config set registry https://github.com/birkankervan/learnstorybook-desing-system
-  
+  npm install --registry https://registry.npmjs.org
+
   npm version $VERSION -m "Bump version to: %s [skip ci]"
   npm publish 
 
