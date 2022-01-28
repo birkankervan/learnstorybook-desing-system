@@ -22,7 +22,7 @@
     "build-storybook": "build-storybook -s public",
     "release": "./scripts/release.sh",
     "build-library": "rm -rf dist && yarn copypackage",
-    "copypackage": "cp -rf package.json LICENSE README.md dist"
+    "copypackage": "cp -rf package.json dist"
   },
   "eslintConfig": {
     "extends": [
