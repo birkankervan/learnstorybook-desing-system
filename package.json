@@ -39,6 +39,10 @@
       }
     ]
   },
+  "files": [
+    "**/*.js",
+    "!**/*.stories.js"
+  ],
   "babel": {
     "presets": [
       [
