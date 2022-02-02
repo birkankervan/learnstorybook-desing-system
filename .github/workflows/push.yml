@@ -37,6 +37,6 @@ jobs:
         run: |
           yarn install --frozen-lockfile
           yarn build
-          echo "::set-env name="NPM_TOKEN:: ${{ secrets.NPM_TOKEN }}"
-          echo "::set-env name="GITHUB_TOKEN:: ${{ secrets.GITHUB_TOKEN }}"
+          chmod +x teke-env.sh
+          ./take-env.sh
           yarn release
