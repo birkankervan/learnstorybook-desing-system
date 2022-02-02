@@ -1,3 +1,15 @@
+# v3.8.0 (Wed Feb 02 2022)
+
+#### 🚀 Enhancement
+
+- bn [#61](https://github.com/birkankervan/learnstorybook-desing-system/pull/61) ([@birkankervan](https://github.com/birkankervan))
+
+#### Authors: 1
+
+- Emre Birkan Kervan ([@birkankervan](https://github.com/birkankervan))
+
+---
+
 # v3.7.0 (Wed Feb 02 2022)
 
 #### 🚀 Enhancement
