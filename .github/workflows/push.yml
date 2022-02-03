@@ -42,3 +42,5 @@ jobs:
           yarn copypackage
           yarn changelog
           yarn publish
+          yarn git-command
+          yarn git-auto-release
