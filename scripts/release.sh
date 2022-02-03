@@ -14,7 +14,7 @@ if [ ! -z "$VERSION" ]; then
   
   cd ./dist
   ## Publish Package
-  npm config set registry http://registry.npmjs.org
+
   npm version $VERSION -m "Bump version to: %s [skip ci]"
   npm publish 
 
