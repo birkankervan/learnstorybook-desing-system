@@ -7,6 +7,7 @@ NPM_TOKEN=$NPM_TOKEN
 
 echo "GITHUB_TOKEN: $NPM_TOKEN"
 echo "NPM_TOKEN: $GITHUB_TOKEN"
+echo "$GITHUB_CONTEXT"
 ## Support for label 'skip-release'
 if [ ! -z "$VERSION" ]; then
   ## Update Changelog
