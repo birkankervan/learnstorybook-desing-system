@@ -20,8 +20,9 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "release": "auto shipit --base-branch=main",
+    "release": "sh ./scripts/release.sh",
     "build-library": "rm -rf dist && yarn copypackage",
+    "remove-npmrc": "rm /home/birkoo/.npmrc",
     "copypackage": "cp -rf package.json dist"
   },
   "eslintConfig": {
