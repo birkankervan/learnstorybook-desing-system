@@ -22,7 +22,7 @@
     "build-storybook": "build-storybook -s public",
     "release": "sh ./scripts/release.sh",
     "build-library": "rm -rf dist && yarn copypackage",
-    "remove-npmrc": "rm /home/birkoo/.npmrc",
+    "remove-npmrc": "ls",
     "copypackage": "cp -rf package.json dist"
   },
   "eslintConfig": {
