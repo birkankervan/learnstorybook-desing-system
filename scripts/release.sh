@@ -11,7 +11,7 @@ if [ ! -z "$VERSION" ]; then
   auto changelog
   
   ## Publish Package
-
+  yarn
   npm version $VERSION -m "Bump version to: %s [skip ci]"
   npm publish 
 
