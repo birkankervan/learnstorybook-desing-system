@@ -38,5 +38,4 @@ jobs:
           npm install npm@latest -g
           yarn install --frozen-lockfile
           yarn build
-          yarn build-library
           yarn release
