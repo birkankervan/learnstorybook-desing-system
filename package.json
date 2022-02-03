@@ -1,6 +1,6 @@
 {
   "name": "@birkoo/learnstorybook-desing-system-template",
-  "version": "3.26.0",
+  "version": "3.27.0",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -81,7 +81,12 @@
   "license": "MIT",
   "auto": {
     "plugins": [
-      ["npm", { "forcePublish": true }]
+      [
+        "npm",
+        {
+          "forcePublish": true
+        }
+      ]
     ]
   },
   "publishConfig": {
