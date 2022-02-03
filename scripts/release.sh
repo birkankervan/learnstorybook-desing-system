@@ -2,6 +2,9 @@ export PATH=$(npm bin):$PATH
 
 VERSION=`auto version`
 
+echo "$VERSION"
+echo "$PATH"
+
 ## Support for label 'skip-release'
 if [ ! -z "$VERSION" ]; then
   ## Update Changelog
