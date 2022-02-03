@@ -1,8 +1,12 @@
 export PATH=$(npm bin):$PATH
 
 VERSION=`auto version`
-echo "npm: $NPM_TOKEN"
-echo "github: $GITHUB_TOKEN"
+
+GITHUB_TOKEN=$GITHUB_TOKEN
+NPM_TOKEN=$NPM_TOKEN
+
+echo "GITHUB_TOKEN: $NPM_TOKEN"
+echo "NPM_TOKEN: $GITHUB_TOKEN"
 ## Support for label 'skip-release'
 if [ ! -z "$VERSION" ]; then
   ## Update Changelog
