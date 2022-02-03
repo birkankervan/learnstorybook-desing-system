@@ -23,7 +23,7 @@
     "release": "sh ./scripts/release.sh",
     "build-library": "rm -rf dist && yarn copypackage",
     "copypackage": "cp -rf package.json dist",
-    "publish": "npm publish ./dist",
+    "publish": "npm publish ",
     "changelog": "auto changelog",
     "git-command": " git push --follow-tags --set-upstream origin main",
     "git-auto-release": "auto release"
