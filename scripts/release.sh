@@ -4,8 +4,8 @@ VERSION=`auto version`
 
 
 
-export GITHUB_TONE:$GITHUB_TOKEN 
-export NPM_TONE: $NPM_TOKEN
+export GITHUB_TOKEN:$GITHUB_TOKEN 
+export NPM_TOKEN: $NPM_TOKEN
 
 ## Support for label 'skip-release'
 if [ ! -z "$VERSION" ]; then
