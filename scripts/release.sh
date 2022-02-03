@@ -12,7 +12,6 @@ if [ ! -z "$VERSION" ]; then
   ## Update Changelog
   auto changelog
   
-  cd ./dist
   ## Publish Package
 
   npm version $VERSION -m "Bump version to: %s [skip ci]"
