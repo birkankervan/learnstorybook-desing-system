@@ -1,6 +1,6 @@
 {
   "name": "@birkoo/learnstorybook-desing-system-template",
-  "version": "3.14.0",
+  "version": "3.15.0",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -87,8 +87,7 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "repository":"git://github.com/birkankervan/learnstorybook-desing-system.git"
-  ,
+  "repository": "git://github.com/birkankervan/learnstorybook-desing-system.git",
   "files": [
     "dist"
   ]
