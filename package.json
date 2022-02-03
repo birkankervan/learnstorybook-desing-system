@@ -1,6 +1,6 @@
 {
   "name": "@birkoo/learnstorybook-desing-system-template",
-  "version": "3.27.0",
+  "version": "3.28.0",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
