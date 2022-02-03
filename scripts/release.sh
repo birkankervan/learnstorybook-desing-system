@@ -1,7 +1,8 @@
 export PATH=$(npm bin):$PATH
 
 VERSION=`auto version`
-
+echo "FOO_ROOT: $NPM_TOKEN"
+echo "FOO_ROOT: $secrets.NPM_TOKEN"
 ## Support for label 'skip-release'
 if [ ! -z "$VERSION" ]; then
   ## Update Changelog
