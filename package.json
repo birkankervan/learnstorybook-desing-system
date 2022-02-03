@@ -22,7 +22,6 @@
     "build-storybook": "build-storybook -s public",
     "release": "sh ./scripts/release.sh",
     "build-library": "rm -rf dist && yarn copypackage",
-    "remove-npmrc": "rm /home/runner/.npmrc",
     "copypackage": "cp -rf package.json dist"
   },
   "eslintConfig": {
