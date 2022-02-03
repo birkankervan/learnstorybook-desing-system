@@ -37,6 +37,4 @@ jobs:
         run: |
           yarn install --frozen-lockfile
           yarn build
-          chmod +x take-env.sh
-          ./take-env.sh
           yarn release
