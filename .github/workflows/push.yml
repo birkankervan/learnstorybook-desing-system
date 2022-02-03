@@ -42,6 +42,6 @@ jobs:
           yarn build-library
           yarn copypackage
           yarn changelog
-          yarn publish
+          yarn publish ./dist
           yarn git-command
           yarn git-auto-release
