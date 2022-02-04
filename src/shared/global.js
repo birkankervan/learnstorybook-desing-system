@@ -60,7 +60,7 @@ export const bodyStyles = css`
     border: none;
     border-top: 1px solid ${color.border};
     clear: both;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.30rem;
   }
 
   code,
