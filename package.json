@@ -75,8 +75,5 @@
   "main": "index.js",
   "author": "Emre Birkan Kervan <kervan95@gmail.com>",
   "license": "MIT",
-  "repository": "https://github.com/birkankervan/learnstorybook-design-system.git",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@birkoo/learnstorybook-desing-system-template"
-  }
+  "repository": "https://github.com/birkankervan/learnstorybook-design-system.git"
 }
