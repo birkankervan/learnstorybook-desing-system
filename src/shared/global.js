@@ -40,7 +40,7 @@ export const bodyStyles = css`
 
   sub,
   sup {
-    font-size: 0.8em;
+    font-size: 1em;
   }
 
   sub {
