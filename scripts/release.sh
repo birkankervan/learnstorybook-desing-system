@@ -8,7 +8,7 @@ if [ ! -z "$VERSION" ]; then
   auto changelog
 
   ## Publish Package
-  yarn version $VERSION -m "Bump version to: %s [skip ci]"
+  yarn version --new-version $VERSION -m "Bump version to: %s [skip ci]"
   yarn publish
 
   ## Create GitHub Release
