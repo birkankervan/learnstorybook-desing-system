@@ -80,7 +80,7 @@
     "prettier": "^2.5.1"
   },
   "description": "tutorial desing system",
-  "main": "index.js",
+  "main": "dist/index.js",
   "author": "Emre Birkan Kervan <kervan95@gmail.com>",
   "license": "MIT",
   "auto": {
