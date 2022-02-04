@@ -18,8 +18,7 @@
     "build": "cross-env BABEL_ENV=production babel src -d dist",
     "release": "sh ./scripts/release.sh",
     "prepub": "rm -rf dist && cp package*.json dist",
-    "pub": "npm publish ./dist",
-    "write":" echo '//registry.npmjs.org/:_authToken=${{ secrets.NPM_AUTH_TOKEN }}' > ~/.npmrc"
+    "pub": "npm publish ./dist"
   },
   "eslintConfig": {
     "extends": [
