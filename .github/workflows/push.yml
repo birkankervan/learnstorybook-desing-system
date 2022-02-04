@@ -27,7 +27,6 @@ jobs:
       - name: Cache node modules
         uses: actions/cache@v1
         with:
-
           path: node_modules
           key: yarn-deps-${{ hashFiles('yarn.lock') }}
           restore-keys: |
@@ -40,5 +39,5 @@ jobs:
         run: |
           yarn install --frozen-lockfile
           yarn build
-          yarn release
-
+          yarn prepub
+          yarn pub

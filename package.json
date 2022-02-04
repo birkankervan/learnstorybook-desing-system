@@ -14,19 +14,11 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "start-storybook -p 6006 -s public",
     "build": "cross-env BABEL_ENV=production babel src -d dist",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public",
     "release": "sh ./scripts/release.sh",
-    "build-library": "rm -rf dist && yarn copypackage",
-    "copypackage": "cp -rf package.json dist",
-    "publish": "npm publish ",
-    "changelog": "auto changelog",
-    "git-command": " git push --follow-tags --set-upstream origin main",
-    "git-auto-release": "auto release"
+    "prepub": "rm -rf dist && cp package*.json dist",
+    "pub": "npm publish ./dist"
   },
   "eslintConfig": {
     "extends": [
@@ -83,15 +75,5 @@
   "main": "dist/index.js",
   "author": "Emre Birkan Kervan <kervan95@gmail.com>",
   "license": "MIT",
-  "auto": {
-    "plugins": [
-      [
-        "npm",
-        {
-          "forcePublish": true
-        }
-      ]
-    ]
-  },
-  "repository": "git://github.com/birkankervan/learnstorybook-desing-system.git"
+  "repository": "https://github.com/your-username/learnstorybook-design-system.git"
 }
