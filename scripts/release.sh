@@ -9,7 +9,7 @@ if [ ! -z "$VERSION" ]; then
 
   ## Publish Package
   yarn version --new-version $VERSION -m "Bump version to: %s [skip ci]"
-  yarn publish
+  yarn publish --access
 
   ## Create GitHub Release
   git push --follow-tags --set-upstream origin $branch
