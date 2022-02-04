@@ -39,5 +39,4 @@ jobs:
         run: |
           yarn install --frozen-lockfile
           yarn build
-          yarn prepub
-          yarn pub
+          yarn release
