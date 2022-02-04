@@ -8,6 +8,7 @@ if [ ! -z "$VERSION" ]; then
   auto changelog
 
   ## Publish Package
+  yarn config set strict-ssl false
   yarn version --new-version $VERSION -m "Bump version to: %s [skip ci]"
   npm publish
 
